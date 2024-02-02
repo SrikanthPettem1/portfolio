@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Single Day');
+* {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+body{
+    font-family: 'Single Day';
+    font-size: 3vw;
+}
+/* Fixed Places  */
+.header{
+    position: fixed;
+    top: 0;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+}

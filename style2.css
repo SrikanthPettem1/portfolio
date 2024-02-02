@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Honk');
+@import url('https://fonts.googleapis.com/css?family=Cute Font');
+.home{
+  top: 0;
+  min-height: 55vh;
+  padding-top: 45vh;
+  width:100%;
+  background-image: url("https://images.unsplash.com/photo-1688934728330-70f167cb366f?q=80&w=1844&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-bottom: 5px solid #000;
+  text-align: center;
+  vertical-align: middle;
+}
+.name{
+    font-family: 'Honk';
+    font-size: 10vw;
+}
+.tag_line{
+    font-family: 'Cute Font';
+    font-size: 6vw;
+}
+
+/* navigation */
+
+.header{
+    border: 1vw solid antiquewhite;
+    background-color: antiquewhite;
+    width:100%;
+    height: 2vw;
+}
