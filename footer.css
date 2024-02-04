@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+@import url('https://fonts.googleapis.com/css?family=Protest Riot');
+
+.footer{
+    border: 0.1vw solid black;
+    text-align: center;
+}
+footer{
+    bottom: 0;
+    font-family: 'Protest Riot';
+    border-top: 1vw solid black;
+    position: fixed;
+    width: 90vw;
+    height: 2vw;
+    background-color: black;
+    color: white;
+    font-size: 1vw;
+    letter-spacing: 0.1vw;
+}

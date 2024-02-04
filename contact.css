@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+
+.contact_Header{
+    font-size: 3vw;
+    color: blueviolet;
+}
+.contact{
+    width: 90vw;
+    padding-bottom: 5vw;
+    text-align: center;
+    font-family: 'Protest Riot';
+}
+.linkedin_image{
+    width: 14vw;
+    height:4vw
+}
+.github_image{
+    width: 11vw;
+    height: 6vw;
+}
+.WhatsApp_image{
+    width: 14vw;
+    height:4vw
+}
+.contact_table{
+    width: 90vw;
+    text-align: center;
+}
+.contact_space{
+    height:3vw;
+}

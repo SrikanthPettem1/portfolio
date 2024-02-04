@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Protest Riot');
+
+.photography{
+    width: 90vw;
+    text-align: center;
+    font-family: 'Protest Riot';
+}
+.photography_Header{
+    font-size: 3vw;
+    color: blueviolet;
+}
+.photography_table{
+    width: 90vw;
+    text-align: center;
+}
+.photography_column{
+    width: 10vw;
+    text-wrap: wrap;
+}
+.photography_space{
+    width:5vw;
+}
+.photography_row_space td{
+    height: 2vw;
+}
+.Youtubebutton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    outline: none;
+    text-decoration: none !important;
+    color: #ffffff !important;
+    background-color: red;
+}
+.weforuslogo_img{
+    width: 4vw;
+    height: 4vw;
+}
+.Instagrambutton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    outline: none;
+    text-decoration: none !important;
+    color: #ffffff !important;
+    background-color: #d300c5;  
+}
+.Unsplashbutton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    outline: none;
+    text-decoration: none !important;
+    color: #ffffff !important;
+    background-color: black;
+}

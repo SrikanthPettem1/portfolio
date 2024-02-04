@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Protest Riot');
+.topnav{
+  text-align: center;
+  vertical-align: bottom;
+  top: 0;
+  position:fixed;
+  width: 90vw;
+  background-color: black;
+  font-size: 2vw;
+  border-top: 2vw solid black;
+}
+.topnav a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-family: 'Protest Riot';
+}
+.topnav a:hover {
+  color:blueviolet;
+}
+a{
+  vertical-align: bottom;
+}
+.pipe{
+  color: white;
+  font-weight: bolder;
+}

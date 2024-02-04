@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Honk');
+@import url('https://fonts.googleapis.com/css?family=Cute Font');
+@import url('https://fonts.googleapis.com/css?family=Protest Riot');
+
+
+.srikanth{
+  background-image: url("https://images.unsplash.com/photo-1688934728330-70f167cb366f?q=80&w=1844&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-family: 'Cute Font';
+  height: 50vw;
+  width: 90vw;
+  border-top: 5vw solid black;
+}
+.name{
+    padding-top: 15vw;
+    text-align: center;
+    font-family: 'Honk';
+    font-size: 5vw;
+}
+.tag_line{
+    text-align: center;
+    font-family: 'Cute Font';
+    font-size: 2vw;
+}

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Protest Riot');
+
+.writing{
+    width: 90vw;
+    text-align: center;
+    font-family: 'Protest Riot';
+    padding-top: 8vw;
+}
+.Writings_Header{
+    font-size: 3vw;
+    color: blueviolet;
+}
+.writing_table{
+    width: 90vw;
+    text-align: center;
+}
+.writing_column{
+    width: 10vw;
+    text-wrap: wrap;
+}
+.writing_space{
+    width:5vw;
+}
+.writing_row_space td{
+    height: 2vw;
+}
+.linkedinbutton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    outline: none;
+    text-decoration: none !important;
+    color: #ffffff !important;
+    background-color: #0A66C2;
+  }
+  .weforuslogo_img{
+    width: 4vw;
+    height: 4vw;
+  }

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik Glitch Pop');
+@import url('https://fonts.googleapis.com/css?family=Protest Guerrilla');
+
+.row_space{
+    font-size: 6vw;
+    font-family: 'Courier New', Courier, monospace;
+}
+.column_space{
+    width: 3vw;
+}
+.timeline_pipe{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet;
+    font-weight: lighter;
+}
+.timeline{
+    width: 90vw;
+    text-align: center;
+}
+.timelineTable{
+    text-align: center;
+    width: 90vw;
+}
+.wrap_column{
+    text-wrap: wrap;
+    width: 10vw;
+}
+.wrap_column_time{
+    width:2vw;
+    font-size: 3vw;
+    font-family: 'Protest Guerrilla';
+}
+td{
+    text-align: center;
+}
