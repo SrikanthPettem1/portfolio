@@ -32,7 +32,27 @@
             </div>
         </header>
     </section>
-    
+    <!--Script to get the Status-->
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const statusEl = document.getElementById('availability-status');
+        const endpoint = 'https://script.google.com/macros/s/AKfycbyXOIjjYwgGqZBGjP5likcisV_tVIrnDpIe4HceYfVZUUMD98LANGUzwuFvFJ2LYKVD/exec'; // replace with your Web App URL
+
+        async function getStatus() {
+          try {
+            const res = await fetch(endpoint);
+            const data = await res.json();
+            statusEl.textContent = data.status || 'Unknown';
+          } catch (err) {
+            console.error('Failed to fetch status:', err);
+            statusEl.textContent = 'Error';
+          }
+        }
+
+        getStatus();
+      });
+    </script>
+    <!--Script to get the status-->
     <!-- Intro : Just name and image -->
     <section id="home" class="home">
         <div class="srikanth">
